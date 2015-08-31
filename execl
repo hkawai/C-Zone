@@ -1,0 +1,6 @@
+=OR(SUBSTITUTE(A3,$K$1:$K$20,"",1)<>A3)
+=SUM(COUNTIFS(B2,{"*hkawai*","*bbbb*","*aaa*"}))
+=IF(COUNTIF(B2,"*hkawai*"),"AAA","")
+=EXACT(A2,B2)
+=AND(SUBSTITUTE(B4,$D$2:$D$4,"",1)<>B4)
+=IF(B9>3,"AAA","BBB")
