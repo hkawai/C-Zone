@@ -7,3 +7,8 @@
 
 =IFERROR(IF(SEARCH(F2:F21,A4),"大文字小文字も気にしない全て揃っていてOK"),"存在していない")
 =IF(COUNTIF(A6,"*" &F3& "*"),"○","×")
+
+
+=MATCH(K2,A2,0)
+=IF(ISERROR(SUM(L2:L11)),0,1)
+ゼロはN/Aは一つもない
